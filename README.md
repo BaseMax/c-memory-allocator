@@ -368,6 +368,13 @@ These can be tuned based on workload characteristics.
 
 See LICENSE file for details.
 
+## Documentation
+
+- **[API Reference](API.md)** - Detailed function documentation
+- **[Architecture Guide](ARCHITECTURE.md)** - Design and implementation details
+- **[Valgrind Guide](VALGRIND.md)** - Memory debugging and leak detection
+- **[Quick Reference](QUICKREF.md)** - Quick command and API reference
+
 ## Author
 
 Custom Memory Allocator implementation demonstrating advanced memory management techniques in C.
