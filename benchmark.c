@@ -186,7 +186,8 @@ void test_edge_cases(void) {
     printf("realloc(ptr, 0): %s\n", p4 == NULL ? "NULL (correct)" : "non-NULL");
     
     /* Test calloc overflow */
-    void* p5 = mem_calloc((size_t)-1, 2);
+    size_t huge_size = (size_t)-1;  /* SIZE_MAX */
+    void* p5 = mem_calloc(huge_size, 2);
     printf("calloc overflow check: %s\n", p5 == NULL ? "NULL (correct)" : "non-NULL");
     
     mem_print_stats();

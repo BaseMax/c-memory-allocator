@@ -8,9 +8,10 @@
 *.so
 *.dylib
 
-# Executables
+# Executables (project-specific binaries)
 test
 benchmark
+example
 *.exe
 *.out
 
