@@ -1,0 +1,48 @@
+# Compiled object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dylib
+
+# Executables (project-specific binaries)
+test
+benchmark
+example
+*.exe
+*.out
+
+# Debugging files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+vgcore.*
+
+# Valgrind output
+valgrind-out.txt
+*.log
+
+# Editor backups
+*~
+*.swp
+*.swo
+.*.swp
+.*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.cbp
+*.layout
+
+# Core dumps
+core
+core.*
+
+# Temporary files
+/tmp/
+*.tmp
