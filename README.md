@@ -1,5 +1,7 @@
 # Custom Memory Allocator in C
 
+> Custom Memory Allocator implementation demonstrating advanced memory management techniques in C.
+
 A high-performance custom heap memory allocator that replaces the standard `malloc`, `free`, `calloc`, and `realloc` functions. This implementation demonstrates advanced memory management techniques including segregated free lists, block coalescing, and adaptive memory acquisition strategies.
 
 ## Features
@@ -364,10 +366,6 @@ These can be tuned based on workload characteristics.
 6. **SIMD optimization**: Use vector instructions for block searching
 7. **Kernel integration**: Use more advanced system calls like `madvise()`
 
-## License
-
-See LICENSE file for details.
-
 ## Documentation
 
 - **[API Reference](API.md)** - Detailed function documentation
@@ -375,6 +373,7 @@ See LICENSE file for details.
 - **[Valgrind Guide](VALGRIND.md)** - Memory debugging and leak detection
 - **[Quick Reference](QUICKREF.md)** - Quick command and API reference
 
-## Author
+## License
 
-Custom Memory Allocator implementation demonstrating advanced memory management techniques in C.
+Seyyed Ali Mohammadiyeh (MAX BASE)
+See LICENSE file for details.
